@@ -1,86 +1,114 @@
 <!DOCTYPE html>
-<!--
-    Anything you put in between the double-dash arrow symbols shown around
-    this block of text is designated a 'comment' intended for human coders
-    and ignored by the computer. The top "<!DOCTYPE html>" line of code 
-    declares that this text file is to be interpreted as HTML code.
--->
-
-<html lang=en>
-<!--
-    This opening tag marks the start of the html code.  Everything below
-    until the </html> closing tag is part of this element. "lang" is an
-    attribute defining the language of the website. The value "en" 
-    indicates this site is written in English. We indent the content
-    inside an element to make it easier for people to read and understand.
--->
-
-    <head>
-    <!--Code *about* the website, NOT displayed in the browser window.-->
-
-        <meta charset="UTF-8"> <!--Sets site to use standard characters.-->
-
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- Sizes your site to the visitor's screen size -->
-
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="Your Name">
-        <!--
-            Some tags like "meta" are self-closing. They have "attributes" 
-            but no inner content and they don't need or use a closing tag.
-        -->
+        <title>Biotech Breakthroughs - Genetics Experiment</title>
+        <style>
+            body {
+                background-color: #8b0000; 
+                color: #ffffff; 
+                font-family: Arial, sans-serif;
+                line-height: 1.6;
+                padding: 20px;
+                max-width: 800px;
+                margin: 0 auto; 
+            }
 
-        <title>Yourname's Projectname</title>
-        <!--The 'title' is what's displayed in the browser tab.-->
+            h1, h2, h3 {
+                color: #ffd700; 
+                border-bottom: 2px solid #ffffff;
+                padding-bottom: 5px;
+            }
 
-        <link rel="stylesheet" href="/style.css">
-        <!--
-            HTML (HyperText Markup Language) code is for the website 
-            content. CSS (Cascading Style Sheets) code is for the website 
-            style. The line above tells the browser the file location and 
-            file name to find this code that you'll write/edit there.
-        -->
+            a {
+                color: #ffeb3b; 
+                font-weight: bold;
+                text-decoration: none;
+            }
 
-        <link rel="icon" type="image/png" href="/favicon.png">
-        <!--
-            If you made/found a favicon, export/name it exactly favicon.png
-            and upload to the top level of your repo, then this line of
-            code will use it as your site icon in the browser tab.
-        -->
+            a:hover {
+                color: #ffffff; 
+                text-decoration: underline;
+            }
 
+            ul {
+                background-color: rgba(0, 0, 0, 0.2); 
+                padding: 20px 40px;
+                border-radius: 5px;
+            }
+
+            li {
+                margin-bottom: 10px;
+            }
+
+            img, video, iframe {
+                border: 3px solid #ffffff;
+                border-radius: 8px;
+                margin: 15px 0;
+                max-width: 100%;
+                display: block;
+            }
+            
+            .cer-box {
+                background-color: rgba(255, 255, 255, 0.1);
+                padding: 15px;
+                border-left: 4px solid #ffd700;
+                margin: 15px 0;
+                border-radius: 4px;
+            }
+        </style>
+
+        <link rel="icon" type="image/png" href="favicon.png">
     </head>
 
-    <body> <!--Everything to be displayed in the browser window.-->
-          
-        <!--example headings, paragraphs, lists-->
-        <h1>This is the biggest heading (for title, etc)</h1>
-        <p>This is the first paragraph</p>
-        <h2>This is the second biggest heading type</h2>
-        <p>Another paragraph</p>
-        <h2>Another second-biggest-heading</h2>
-        <ul>
-            <li>use ul for bullet point (unordered) lists</li>
-            <li>use ol for numbered (ordered) lists</li>
-        </ul>
+    <body> <h1>“Biotech Breakthroughs”: Genetics Experiment</h1>
+        
+        <p><a href="index.html">← Back to Homepage</a></p>
+        <hr>
 
-        <!--example images (uploaded to repo's "images" directory)-->
+        <h2>Project Documentation</h2>
+        <p>Below is the visual documentation and data analysis from our biotech exploration:</p>
+        
         <img 
-            src="images/screenprint.webp"
+            src="images/biotech_data.webp" 
             width="560" 
-            alt="this is the screen print that symbols that u should stop sports betting">
+            alt="Graph showing genetic variation data across populations.">
 
-        <!--example video (or other content from another webpage)-->
-        <iframe 
-            src="https://drive.google.com/file/d/FILE_ID/preview"
-            width="560" height="315"
-            allowfullscreen>
-        </iframe>
-        <!-- replace FILE_ID in the example link above with
-             exact text from your actual video's share link -->
+        <video width="560" height="315" controls>
+            <source src="cheekswab.mp4" type="video/mp4">
+            <source src="cheekswab.MOV" type="video/quicktime">
+            Your browser does not support the video tag.
+        </video>
+        
+        <hr>
 
-        <!--example links-->
-            <a href="/about.html">Link to page/file on your site</a>
-            <a href="https://github.com" target="_blank">Link to
-                external page on web (_blank opens in new tab)</a>
+        <h2>The Experiment: Is Race "Real"?</h2>
+        <p>
+            This biotech and social science experiment investigated whether the concept of human race has a basis in biology (genetics) versus psychology and sociology. 
+            The experiment utilized data from the <strong>Implicit Association Test (IAT)</strong>, a psychological research tool designed to uncover subconscious biases that individuals might be unaware of or unwilling to admit. 
+        </p>
+        <p>
+            During the test, participants rapidly categorize words or images (such as faces of different racial backgrounds) alongside positive or negative evaluations (like "good" or "bad") on a computer screen. By measuring the exact speed of these responses down to the millisecond, the test determines the strength of a person's automatic mental associations. 
+        </p>
+
+        <div class="cer-box">
+            <strong>Core Finding:</strong> The data reveals that while humans share 99% of their DNA—proving that discrete biological racial boundaries do not exist in genetics—race is intensely "real" from a psychological and social standpoint. Because society collectively agrees to act as if these categories are true, they create measurable implicit biases that directly alter human behavior and social structures.
+        </div>
+
+        <hr>
+
+        <h2>Project Reflection</h2>
+        
+        <h3>What I Did and Learned</h3>
+        <p>
+            In this project, I analyzed the intersection of genetics and social psychology to answer whether race is biologically or socially real. I learned that from a strictly biotechnological perspective, race is a human invention; genetic variation is continuous and overlaps entirely across populations rather than stopping at arbitrary racial lines. However, by studying the mechanics and typical data of the Implicit Association Test (IAT), I discovered how deeply embedded the construct of race is within the human psyche. The experiment taught me that social constructs do not need a biological foundation to have massive real-world power. Because people collectively internalize cultural messaging, these categories manifest as subconscious implicit biases that shape how individuals perceive, judge, and interact with one another daily.
+        </p>
+
+        <h3>21st Century Skill & Growth</h3>
+        <p>
+            This experiment allowed me to demonstrate significant growth in the 21st-century skill of <strong>Critical Thinking and Evidence-Based Reasoning</strong>. To complete this analysis, I had to look past surface-level societal assumptions and evaluate raw scientific data objectively. Synthesizing two vastly different fields of study—genomic data showing 99% shared human DNA alongside cognitive processing data from the IAT—forced me to reconcile scientific facts with complex societal frameworks. I showed mastery by constructing a tight, logical Claim-Evidence-Reasoning argument, ensuring that my final conclusions were driven entirely by experimental evidence rather than personal bias or casual observation.
+        </p>
 
     </body>
 </html>
